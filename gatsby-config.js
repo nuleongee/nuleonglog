@@ -1,8 +1,9 @@
 /** @type {import('gatsby).GatsbyConfig} */
 module.exports = {
+  pathPrefix: "/nuleonglog",
   siteMetadata: {
-      title: ``,
-    siteUrl: `https://www.yourdomain.tld`
+      title: `nuleonlog`,
+    siteUrl: `https://nuleongee.github.io`
   },
   plugins: [
   //     {
