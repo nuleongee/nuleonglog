@@ -1,6 +1,7 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  theme: {},
-  variants: {},
+  theme: {
+    extend: {},
+  },
   plugins: [],
 };

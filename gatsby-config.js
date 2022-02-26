@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://nuleongee.github.io`,
   },
   plugins: [
+    "gatsby-plugin-postcss",
     //     {
     //   resolve: 'gatsby-plugin-google-analytics',
     //   options: {
@@ -40,6 +41,5 @@ module.exports = {
       },
       __key: "pages",
     },
-    `gatsby-plugin-postcss`,
   ],
 };
