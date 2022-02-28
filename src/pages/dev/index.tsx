@@ -1,9 +1,12 @@
 import * as React from 'react';
+import HeaderContainer from '../../components/Base/HeaderContainer';
+import BodyContainer from '../../components/Base/BodyContainer';
 
 const DevIndex = () => {
   return (
     <main>
-      <h1 className="text-3xl font-bold underline">개발</h1>
+      <HeaderContainer />
+      <BodyContainer>개발</BodyContainer>
     </main>
   );
 };

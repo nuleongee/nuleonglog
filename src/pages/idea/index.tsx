@@ -1,9 +1,12 @@
 import * as React from 'react';
+import HeaderContainer from '../../components/Base/HeaderContainer';
+import BodyContainer from '../../components/Base/BodyContainer';
 
 const IdeaIndex = () => {
   return (
     <main>
-      <h1 className="text-3xl font-bold underline">생각</h1>
+      <HeaderContainer />
+      <BodyContainer>생각</BodyContainer>
     </main>
   );
 };
